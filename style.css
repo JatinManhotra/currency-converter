@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    background-color: #875053;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input,select,button{
+    border: none;
+    outline: none;
+  }
+  
+  .container{
+    background-color: white;
+    padding: 2rem 5rem;
+    border-radius: 0.75rem;
+    scale: 1.2;
+  }
+
+  i{
+    cursor: pointer;
+  }
+  
+  .amount{
+    margin: 1rem 0;
+  }
+  .amount input{
+    border:0.5px solid darkgray;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.2rem;
+    width: 100%;
+  }
+  
+  .exchange{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  select{
+    cursor: pointer;
+  }
+  
+  .text{
+    padding-bottom: 0.2rem;
+  }
+
+  .exchange img{
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+  
+  .dropdown{
+    display: flex;
+    border:0.5px solid darkgray;
+    border-radius: 0.5rem;
+    padding-left: 0.2rem;
+  }
+  
+  .dropdown select{
+    font-size: 0.75rem;
+    border-radius: 2rem;
+  }
+  
+  .ex_data{
+    margin: 0.75rem 0;
+  }
+  
+  form button{
+    background-color: #EFBC9B;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 2px;
+  }
